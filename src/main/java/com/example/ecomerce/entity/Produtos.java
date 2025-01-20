@@ -28,10 +28,4 @@ public class Produtos {
 
     @Column
     private String categoria;
-
-    public Produtos(ProdutoRequest produtoRequest){
-        this.nome = produtoRequest.nome();
-        this.preco = produtoRequest.preco();
-        this.marca = produtoRequest.marca();
-    }
 }
