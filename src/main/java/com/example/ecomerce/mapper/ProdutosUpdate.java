@@ -2,9 +2,11 @@ package com.example.ecomerce.mapper;
 
 import com.example.ecomerce.dto.ProdutoRequest;
 import com.example.ecomerce.entity.Produtos;
-import org.mapstruct.*;
+import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
 
-@Mapper(componentModel = MappingConstants.ComponentModel.SPRING,
+@Mapper(componentModel = "spring",
         nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface ProdutosUpdate {
 

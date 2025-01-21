@@ -2,7 +2,6 @@ package com.example.ecomerce.controller;
 
 import com.example.ecomerce.dto.ProdutoRequest;
 import com.example.ecomerce.entity.Produtos;
-import com.example.ecomerce.repository.ProdutosRepository;
 import com.example.ecomerce.service.ProdutosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.crossstore.ChangeSetPersister;
