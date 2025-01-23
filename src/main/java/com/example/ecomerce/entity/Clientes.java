@@ -11,7 +11,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.util.Date;
 
 @Entity
-@Table(name = "Clientes")
+@Table(name = "CLIENTES")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
