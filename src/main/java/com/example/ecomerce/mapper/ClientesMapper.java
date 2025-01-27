@@ -14,9 +14,6 @@ import java.lang.annotation.Target;
 public interface ClientesMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "telefone", ignore = true)
-    @Mapping(target = "endereco", ignore = true)
-    @Mapping(target = "senha", ignore = true)
     @Mapping(target = "created_at", ignore = true)
     Clientes requestToEntity(ClientesRequest request);
 }
